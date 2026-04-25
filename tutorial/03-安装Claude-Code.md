@@ -79,6 +79,7 @@ Node.js 是 JavaScript 运行环境。Claude Code 是用 Node.js 写的，所以
 │                                            │
 └────────────────────────────────────────────┘
 ```
+![[Pasted image 20260425133451.png|649]]
 
 ---
 
@@ -102,11 +103,9 @@ irm https://claude.ai/install.ps1 | iex
 | `iex`                           | 执行传过来的脚本（**I**nvoke **Ex**pression） |
 
 > 💡 这就是安装命令。整条命令的意思是："去 Claude 官网下载安装脚本，然后运行它。"
-
 ### 备用安装方式（CMD 命令提示符）
 
 如果你在 CMD 而不是 PowerShell 中：
-
 ```cmd
 curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd
 ```
@@ -149,7 +148,7 @@ claude --version
 如果输出类似以下内容，安装成功：
 
 ```
-Claude Code v1.0.xx
+2.1.xxx (Claude Code)
 ```
 
 ### 如果提示 "claude 不是内部或外部命令"
@@ -162,15 +161,6 @@ Claude Code v1.0.xx
 1. 确保关闭了所有 PowerShell 窗口，重新打开一个新的
 
 2. 在新窗口中再次运行 claude --version
-
-3. 如果还是不行，运行：
-   claude --install-shell-integration
-
-4. 还是不行？试试用完整路径：
-   $env:USERPROFILE\.claude\bin\claude.cmd --version
-
-5. 如果完整路径可以运行，说明路径没加到 PATH 里：
-   手动添加 %USERPROFILE%\.claude\bin 到系统环境变量 PATH
 ```
 
 ---

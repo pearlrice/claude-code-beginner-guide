@@ -10,25 +10,7 @@
 
 想象你是医院里的一位主治医生。你有一个"工具箱"系统：
 
-```
-你（医生） VS  AI （Claude Code）
-
-┌─────────────────────────┐  ┌─────────────────────────┐
-│ 平时你自己看病            │  │ Claude Code 日常工作     │
-│                         │  │                         │
-│ 病人说肚子疼              │  │ 你说"修bug"             │
-│ → 你自己判断→ 开药        │  │ → Claude 自己判断→改代码 │
-│                         │  │                         │
-├─────────────────────────┤  ├─────────────────────────┤
-│ 遇到特殊情况：            │  │ 遇到特殊需求：            │
-│ "需要心脏手术"            │  │ "需要一个标准的commit"    │
-│                         │  │                         │
-│ → 请心脏外科专家（Skill）  │  │ → 调用 /commit Skill   │
-│   带着全套手术器械进来      │  │   带着标准化流程进来      │
-│   按照标准流程操作         │  │   自动完成commit         │
-│                         │  │                         │
-└─────────────────────────┘  └─────────────────────────┘
-```
+![[Gemini_Generated_Image_a7ybmha7ybmha7yb.png]]
 
 **Skill 就是给 Claude Code 装的"专业工具箱"**。每个 Skill 包含：
 1. **名称**：叫什么（变成 `/skill-name` 命令）
@@ -131,13 +113,13 @@ Create a well-formatted commit for the current changes.
 
 ## Commit Message Format
 
-```
+
 <type>: <short description>
 
 <optional body explaining why>
 
 Co-Authored-By: Claude Code <noreply@anthropic.com>
-```
+
 
 Types: feat (new feature), fix (bug fix), refactor (code improvement), docs (documentation), chore (maintenance)
 ```
