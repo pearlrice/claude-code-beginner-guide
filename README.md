@@ -40,7 +40,7 @@
 
 **已经在用，想深入掌握** → 直接跳到 [第五章](./tutorial/05-核心概念.md)、[第六章](./tutorial/06-Skills完全指南.md)、[第七章](./tutorial/07-实用能力教程.md)
 
-**只想搞清楚怎么配置 API 和付钱** → 直奔 [第八章](./tutorial/08-第三方模型和计费.md)
+**只想搞清楚怎么配置 API**  → 直奔 [第八章](./tutorial/08-第三方模型和计费.md)
 
 **一知半解，想了解 AI Agent** → 跳到 [第二章：Claude Code 是什么 — AI Agent 概念对比](./tutorial/02-Claude-Code是什么.md)
 
