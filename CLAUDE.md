@@ -68,7 +68,6 @@
 claude_tut/
 ├── CLAUDE.md                    # 项目计划（本文件）
 ├── tutorial/
-│   ├── 00-目录.md              # 总目录
 │   ├── 01-认识终端和命令行.md
 │   ├── 02-Claude-Code是什么.md
 │   ├── 03-安装Claude-Code.md
