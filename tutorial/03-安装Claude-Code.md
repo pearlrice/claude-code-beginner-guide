@@ -79,7 +79,7 @@ Node.js 是 JavaScript 运行环境。Claude Code 是用 Node.js 写的，所以
 │                                            │
 └────────────────────────────────────────────┘
 ```
-![[Pasted image 20260425133451.png|649]]
+![验证Node.js安装成功](../images/Pasted%20image%2020240425133451.png)
 
 ---
 

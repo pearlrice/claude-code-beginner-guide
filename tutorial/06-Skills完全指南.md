@@ -10,7 +10,7 @@
 
 想象你是医院里的一位主治医生。你有一个"工具箱"系统：
 
-![[Gemini_Generated_Image_a7ybmha7ybmha7yb.png]]
+![工具箱类比——Skill就是给Claude Code装的专业工具箱](../images/Gemini_Generated_Image_a7ybmha7ybmha7yb.png)
 
 **Skill 就是给 Claude Code 装的"专业工具箱"**。每个 Skill 包含：
 1. **名称**：叫什么（变成 `/skill-name` 命令）

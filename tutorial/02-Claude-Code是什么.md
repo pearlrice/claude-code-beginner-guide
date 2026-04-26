@@ -170,7 +170,7 @@ flowchart LR
 > 🎯 **核心区别**：Chatbot 让你更聪明，Agent 让你更省力。Chatbot 告诉你"该怎么修"，Agent **直接帮你修好**。
 
 Agent 的工作方式叫做 **Agent Loop**（智能体循环）：
-![[Pasted image 20260425013200.png|416]]
+![Agent Loop智能体循环示意图](../images/Pasted%20image%2020240425013200.png)
 
 
 详细的 Agent Loop 机制我们放到第五章再深入。现在只需要记住：**Agent 会自己循环干活，不用你一步步指挥。**
@@ -330,7 +330,7 @@ flowchart TB
 ## 2.5 Claude Code 能力全景图
 
 让你对它能做什么有一个完整印象：
-![[Pasted image 20260425013135.png]]
+![Claude Code能力全景图](../images/Pasted%20image%2020240425013135.png)
 > 🎯 简单说：**任何跟代码和文件相关的任务，你都可以试试交给 Claude Code。**
 
 ---
