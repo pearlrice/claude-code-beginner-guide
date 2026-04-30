@@ -330,12 +330,12 @@ flowchart TB
 ## 2.5 Claude Code 能力全景图
 
 让你对它能做什么有一个完整印象：
-![Claude Code能力全景图](../images/Pasted%20image%2020240425013135.png)
+![alt text](../images/claude_code.png)
 > 🎯 简单说：**任何跟代码和文件相关的任务，你都可以试试交给 Claude Code。**
 
 ---
 
-## 2.6 新手常见的三个认知误区
+## 2.6 常见的三个认知误区
 
 ### 误区一："AI 写的代码肯定不靠谱"
 
